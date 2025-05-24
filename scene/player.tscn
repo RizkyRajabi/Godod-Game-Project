@@ -71,6 +71,7 @@ animations = [{
 radius = 5.09902
 
 [node name="player" type="CharacterBody2D"]
+z_index = 5
 collision_layer = 2
 script = ExtResource("1_qm0ti")
 
@@ -83,8 +84,11 @@ frame = 4
 frame_progress = 0.0532224
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+light_mask = 3
+visibility_layer = 3
 position = Vector2(0, -6)
 shape = SubResource("CircleShape2D_nvl01")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(4, 4)
+position_smoothing_enabled = true
