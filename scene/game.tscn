@@ -279,9 +279,11 @@ layer_2/tile_data = PackedInt32Array(131074, 0, 0, 131075, 0, 0, 131076, 0, 0, 1
 
 [node name="player" parent="." instance=ExtResource("1_80nbo")]
 position = Vector2(75, 33)
+script = null
 
 [node name="Killzone" parent="." instance=ExtResource("3_p1ry8")]
 position = Vector2(134, 113)
+script = null
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
 shape = SubResource("WorldBoundaryShape2D_qpk70")
@@ -310,18 +312,24 @@ autoplay = "RESET"
 
 [node name="Coin" parent="coin" instance=ExtResource("5_xlg7c")]
 position = Vector2(174, 14)
+script = null
 
 [node name="Coin2" parent="coin" instance=ExtResource("5_xlg7c")]
 position = Vector2(281, 14)
+script = null
 
 [node name="Coin3" parent="coin" instance=ExtResource("5_xlg7c")]
 position = Vector2(281, -95)
+script = null
 
 [node name="Coin4" parent="coin" instance=ExtResource("5_xlg7c")]
 position = Vector2(472, 16)
+script = null
 
 [node name="Coin5" parent="coin" instance=ExtResource("5_xlg7c")]
 position = Vector2(612, 14)
+script = null
 
 [node name="Slime" parent="." instance=ExtResource("6_xlg7c")]
 position = Vector2(538, 24)
+script = null
