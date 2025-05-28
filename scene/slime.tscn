@@ -64,3 +64,7 @@ target_position = Vector2(13, 0)
 [node name="RayCastleft" type="RayCast2D" parent="."]
 position = Vector2(0, 5)
 target_position = Vector2(-13, 0)
+
+[node name="deteksiSamping" type="RayCast2D" parent="."]
+position = Vector2(-14, 0)
+target_position = Vector2(0, 20)

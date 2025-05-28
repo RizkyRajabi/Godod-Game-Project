@@ -1,5 +1,6 @@
-[gd_scene load_steps=17 format=3 uid="uid://dral0i6ytsfjy"]
+[gd_scene load_steps=18 format=3 uid="uid://dral0i6ytsfjy"]
 
+[ext_resource type="PackedScene" uid="uid://i1ocxpncxo1m" path="res://scene/menu.tscn" id="1_eow3j"]
 [ext_resource type="Texture2D" uid="uid://dgnunrpqaml5n" path="res://asset/brackeys_platformer_assets/sprites/world_tileset.png" id="1_ryrav"]
 [ext_resource type="PackedScene" uid="uid://cvwmmjau442nw" path="res://scene/player.tscn" id="2_eow3j"]
 [ext_resource type="PackedScene" uid="uid://btknxvak7rwht" path="res://scene/killzone.tscn" id="3_j5wjh"]
@@ -325,3 +326,9 @@ position = Vector2(612, 14)
 
 [node name="Slime" parent="." instance=ExtResource("6_mfdv2")]
 position = Vector2(538, 24)
+
+[node name="menu" parent="." instance=ExtResource("1_eow3j")]
+offset_left = -534.0
+offset_top = -255.0
+offset_right = -532.0
+offset_bottom = -255.0
